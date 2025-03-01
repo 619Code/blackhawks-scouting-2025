@@ -7,7 +7,11 @@
       </select>
     </FormGroup>
     <FormGroup :show="isTBA" :label-type="LabelType.LabelTag" id="event-key-input" name="Event Key">
-      <input id="event-key-input" type="text" v-model="eventKey" @keyup.enter="loadTBAData" />
+      <select id="event-key-input" v-model="eventKey" @keyup.enter="loadTBAData">
+        <option value="2025vagle">Portsmouth</option>
+        <option value="2025vabla">Blacksburg</option>
+        <option value="2025chcmp">DCMP</option>
+      </select>
       <button @click="loadTBAData">Load</button>
     </FormGroup>
     <FormGroup :show="isTBA" :label-type="LabelType.PlainText" name="Teams Loaded">{{ teamsLoadStatus }}</FormGroup>
