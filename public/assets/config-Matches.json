@@ -4,7 +4,7 @@
   "pages": [
     {
       "name": "Setup",
-      "image": "assets/field.png",
+      "image": "assets/field_setup.png",
       "widgets": [
         {
          "name": "Starting Position",
@@ -19,6 +19,7 @@
     },
     {
       "name": "Autonomous",
+      "image": "assets/field_auto.png",
       "widgets": [
         {
           "name": "Left Starting Zone",
@@ -169,6 +170,7 @@
 
     {
       "name": "Teleop",
+      "image": "assets/field.png",
       "widgets": [
         {
           "name": "Picked Up From",
@@ -308,6 +310,7 @@
     },
     {
       "name": "Endgame",
+      "image": "assets/field_endgame.png",
       "widgets": [
         {
           "name": "End Location",
