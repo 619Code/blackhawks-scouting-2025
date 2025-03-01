@@ -21,41 +21,22 @@
         "name": "Robot",
         "widgets": [
           {
-            "name": "Height",
-            "type": "number"
-          },
-          {
-            "name": "Length",
-            "type": "number"
-          },
-          {
-            "name": "Width",
-            "type": "number"
-          },
-          {
-            "name": "Number of Batteries",
-            "type": "number"
-          },
-          {
-            "name": "Weight",
-            "type": "number"
-          },
-          {
             "name": "Drivetrain",
             "type": "dropdown",
             "options": [
-              "West Coast",
               "Swerve",
+              "West Coast",
               "Butterfly",
               "Mecanum",
               "Other"
             ]
           },
           {
-            "name": "Swerve Motor Type",
+            "name": "Drivetrain Motor Type",
             "type": "dropdown",
             "options": [
               "Neo",
+              "(Neo) Vortex",
               "Falcon",
               "Cim",
               "Kraken"
@@ -77,20 +58,40 @@
         "name": "Match Play",
         "widgets": [
           {
-            "name": "Can Pick Up",
+            "name": "Auto Starting Preference",
+            "type": "dropdown",
+            "options": [
+              "Processor Side (Left facing Reef)",
+              "Center",
+              "Barge Side (Right facing Reef)"
+            ]
+          },
+          {
+            "name": "Auto Capability",
+            "type": "multicheckbox",
+            "options": [
+              "Do Nothing",
+              "Move but not score",
+              "Move and score 1 coral",
+              "Move and score 1+ coral"
+            ]
+          },
+          {
+            "name": "Can Pick Up From",
             "type": "multicheckbox",
             "options": [
               "Ground Coral",
               "Ground Algae",
-              "Reef 2.5",
-              "Reef 3.5"
+              "Coral Station",
+              "Algae Reef 2.5",
+              "Algae Reef 3.5"
             ]
           },
           {
             "name": "Can Score In",
             "type": "multicheckbox",
             "options": [
-              "Trough",
+              "L1 (Trough)",
               "L2",
               "L3",
               "L4",
@@ -99,19 +100,12 @@
             ]
           },
           {
-            "name": "Scoring Methods",
-            "type": "multicheckbox",
-            "options": [
-              "Manual",
-              "Auto"
-            ]
-          },
-          {
             "name": "Preferred Pickup Location",
             "type": "dropdown",
             "options": [
               "Ground Coral",
               "Ground Algae",
+              "Coral Station",
               "Reef 2.5",
               "Reef 3.5"
             ],
@@ -131,23 +125,17 @@
             "defaultOption": true
           },
           {
-            "name": "Cycle Time Coral -> Reef",
-            "type": "number"
-          },
-          {
-            "name": "Cycle Time Algae -> Proccesor",
-            "type": "number"
-          },
-          {
-            "name": "Cycle Time Algae -> Net",
-            "type": "number"
-          },
-          {
-            "name": "Climb Time",
-            "type": "number"
-          },
-          {
             "name": "Comments",
+            "type": "textarea",
+            "colspan": 3
+          }
+        ]
+      },
+      {
+        "name": "Misc.",
+        "widgets": [
+          {
+            "name": "Do they need help with anything?",
             "type": "textarea",
             "colspan": 3
           }
