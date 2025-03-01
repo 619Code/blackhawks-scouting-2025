@@ -2,7 +2,7 @@
   <div v-show="show">
     <h1 class="page-heading">{{ config.data.heading ?? "Scouting" }}</h1>
     <h3 v-if="teamDesc?.length > 0" class="page-heading">Team: {{ teamDesc }}</h3>
-    <img v-if="config.data.logo" :src="absoluteLogoPath" alt="Cannot load logo file" class="center" />
+    <img v-if="customImg" :src="customImg" alt="Cannot load logo file" class="center" />
     <h2 class="page-heading">{{ title }}</h2>
     <div class="grid">
       <slot></slot>
@@ -15,6 +15,7 @@ import { useConfigStore, useWidgetsStore } from "@/common/stores";
 
 const props = defineProps<{
   title: string
+  customImg?: string
 }>();
 
 const config = useConfigStore();

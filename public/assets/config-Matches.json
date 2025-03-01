@@ -4,6 +4,7 @@
   "pages": [
     {
       "name": "Setup",
+      "image": "assets/field.png",
       "widgets": [
         {
          "name": "Starting Position",
@@ -22,7 +23,7 @@
         {
           "name": "Left Starting Zone",
           "type": "checkbox",
-          "col":4
+          "col":3
         },
         {
           "type": "spacer",
@@ -73,7 +74,7 @@
           "col": 2
         },
         {
-          "name": "Trough Corals",
+          "name": "L1 Corals",
           "type": "spinbox",
           "prefix": "Auto",
           "row": 5,
@@ -100,7 +101,7 @@
           "row": 6
         },
         {
-          "name": "Pick-up Locations",
+          "name": "Field Preload Pick-up Locations",
           "type": "heading",
           "col": 4
         },
@@ -151,7 +152,13 @@
           "row": 9
         },
         {
-          "name": "C Station",
+          "name": "Left Coral Station",
+          "type": "checkbox",
+          "col": 3,
+          "row": 11
+        },
+        {
+          "name": "Right Coral Station",
           "type": "checkbox",
           "col": 5,
           "row": 11
@@ -191,8 +198,8 @@
         {
           "name": "Reef L3.5",
           "type": "spinbox",
-          "row": 4,
-          "col": 2
+          "row": 3,
+          "col": 5
         },
         {
           "name": "Coral",
@@ -216,8 +223,8 @@
         {
           "name": "Trough",
           "type": "spinbox",
-          "row": 7,
-          "col":2
+          "row": 6,
+          "col":5
         },
 
         {
@@ -256,7 +263,7 @@
           "row": 10
         },
         {
-          "name": "Coral Trough",
+          "name": "Coral L1 (Trough)",
           "type": "spinbox",
           "col": 2,
           "row": 10
@@ -285,13 +292,7 @@
           "type": "spacer",
           "height": 15
         },
-        {
-          "name": "Assists",
-          "type": "checkbox",
-          "col": 2,
-          "align": "center"
-        },
-        {
+          {
           "name": "Rescore",
           "type": "spinbox",
           "col":2,
