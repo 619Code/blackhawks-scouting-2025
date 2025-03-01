@@ -1,5 +1,9 @@
 # Black Hawks Scouting
 
+## For 619 Members
+
+### Deploy through Github Actions
+
 ## Overview
 
 Black Hawks Scouting is an advanced, web-based, and open source scouting app made by FRC Team 2834 (The Bionic Black Hawks).
