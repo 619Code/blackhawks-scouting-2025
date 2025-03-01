@@ -1,6 +1,6 @@
 {
-  "heading": "Reefscape - 2025 v1",
-  "logo": "logo.png",
+  "heading": "Reefscape - 2025",
+  "logo": "frc619_logo.png",
   "pages": [
     {
       "name": "Setup",
@@ -219,13 +219,13 @@
           "row": 7,
           "col":2
         },
-    
+
         {
           "name": "Scoring",
           "type": "heading",
           "align": "center",
           "col": 3
-    
+
         },
 
         {

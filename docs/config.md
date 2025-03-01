@@ -61,7 +61,7 @@ Configuration files are in JSON format with data contained within a top-level ob
 ```json
 {
   "heading": "Rapid React - 2022 (Pit Scouting)",
-  "logo": "logo.png",
+  "logo": "frc619_logo.png",
   "skipTeamSelection": true,
   "pages": [
     {
