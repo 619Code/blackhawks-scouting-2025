@@ -51,6 +51,7 @@ export default defineConfig({
   resolve: {
     alias: {
       "@": fileURLToPath(new URL("./src", import.meta.url)),
+      "@a": fileURLToPath(new URL("./pulic/assets", import.meta.url))
     },
   }
 });
