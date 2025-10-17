@@ -2,6 +2,11 @@
 
 This document tracks the changes between Black Hawks Scouting versions. Dates are written in the MM/DD/YYYY format.
 
+## 2025 (10/17/2025)
+
+- Updated Blue Alliance codes in preparation for Rumble #10 offseason. 
+- Updated README to include the hosted site url. 
+
 ## 2024.1 (03/01/2024)
 
 ### Additions

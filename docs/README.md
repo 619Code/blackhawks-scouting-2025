@@ -2,6 +2,8 @@
 
 ## For 619 Members
 
+The site is hosted on github at https://619code.github.io/blackhawks-scouting-2025
+
 ### Deploy through Github Actions
 
 ## Overview
