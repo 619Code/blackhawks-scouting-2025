@@ -9,6 +9,9 @@
     <FormGroup :show="isTBA" :label-type="LabelType.LabelTag" id="event-key-input" name="Event Key">
       <select id="event-key-input" v-model="eventKey" @keyup.enter="loadTBAData">
         <option value="2025vagle2">Rumble #10</option>
+        <option value="2025vapor">Portsmouth</option>
+        <option value="2025vabla">Blacksburg</option>
+        <option value="2025chcmp">DCMP</option>
       </select>
       <button @click="loadTBAData">Load</button>
     </FormGroup>
